@@ -1,0 +1,33 @@
+.flex-container {
+
+    display: flex; /* Define al contenedor como un contenedor flex */
+
+    flex-direction: row-reverse; /* Los elementos se alinearán de derecha a izquierda */
+
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+  
+    align-items: center; /* Centra verticalmente */
+
+  height: 300px; /* Definimos un tamaño para ver la alineación */
+
+  background-color: #f4f4f4;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    margin: 10px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+  }
+
+

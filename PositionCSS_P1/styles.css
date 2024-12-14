@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ff;
+    margin: 0;
+    padding: 20px;
+    color: #4a4a4a;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+strong {
+    color: #6a1b9a;
+}
+
+div {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Static Example */
+.static-example .static-box {
+    position: static; /* Posición predeterminada */
+    background-color: #d1c4e9;
+    color: #fff;
+}
+
+/* Relative Example */
+.relative-example .relative-box {
+    position: relative; /* Posicionado relativo */
+    top: 20px; /* Mueve 20px hacia abajo */
+    left: 10px; /* Mueve 10px hacia la derecha */
+    background-color: #9575cd;
+    color: white;
+}
+
+/* Absolute Example */
+.absolute-example .absolute-container {
+    position: relative; /* Contenedor posicionado */
+    height: 100px; /* Altura del contenedor */
+    background-color: #ede7f6;
+}
+
+.absolute-example .absolute-box {
+    position: absolute; /* Elemento absoluto */
+    top: 10px; /* Posiciona desde el contenedor */
+    left: 10px;
+    background-color: #512da8;
+    color: white;
+    width: 150px;
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+flex-container {
+
+    display: flex;
+  
+    flex-wrap: wrap; /* Los elementos se distribuirán en varias líneas si es necesario */
+  
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+  
+    align-items: center; /* Centra verticalmente los elementos en el eje cruzado */
+  
+    gap: 15px; /* Espacio entre elementos */
+  
+    background-color: #f4f4f4;
+  
+    padding: 20px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+    width: 100px; /* Ancho inicial */
+  
+    height: 100px; /* Altura fija para mantener la forma */
+  
+  }
+

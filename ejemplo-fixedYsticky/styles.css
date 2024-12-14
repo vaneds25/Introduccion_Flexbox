@@ -1,0 +1,38 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Fixed Header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #6a1b9a;
+}
+
+/* Sticky Header */
+.sticky-container {
+    height: 1000px;
+    padding-top: 60px; /* Espacio para el fixed */
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 10px;
+    background-color: #9575cd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #512da8;
+}
